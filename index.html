@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Project reel</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- landing -->
+  <section class="landing">
+    <h1>Kristina.designs</h1>
+  </section>
+
+  <!-- the reel: tall section, sticky stage inside -->
+  <section class="swim" id="swim">
+    <div class="swim__stage">
+      <div class="swim__count"><b id="count-cur">01</b><span>/ <span id="count-tot">00</span></span></div>
+      <div class="swim__track" id="track"><!-- plates injected by JS --></div>
+    </div>
+  </section>
+
+  <section class="landing"><h1>More below…</h1></section>
+
+  <!-- detail panel (one, reused) -->
+  <div class="panel" id="panel" hidden>
+    <div class="panel__box" id="panel-box" role="dialog" aria-modal="true">
+      <button class="panel__close" id="panel-close" aria-label="Close">&times;</button>
+      <!-- LEFT: text, pinned -->
+      <div class="panel__text">
+        <h2 id="p-title"></h2>
+        <p class="panel__meta" id="p-meta"></p>
+        <div class="panel__desc" id="p-desc"></div>
+        <a class="panel__link" id="p-link" href="#">View project</a>
+      </div>
+      <!-- RIGHT: images, scroll -->
+      <div class="panel__images" id="p-images"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
